@@ -15,7 +15,11 @@
 */
 
 //Code here
-
+var me = {
+name: 'Tyra',
+age: 23
+};
+ alert(me.name);
 
 
 ////////// PROBLEM 2 //////////
@@ -26,7 +30,14 @@
 */
 
 //Code here
-
+var favoriteThings = {
+  band: 'Yellowcard',
+  food: 'Yogurt',
+  person: 'Jordan',
+  book:'the sky',
+  movie: '50 first dates',
+  holiday: 'halloween'
+};
 
 
 /*
@@ -34,7 +45,8 @@
 */
 
 //Code here
-
+favoriteThings.car = 'Tacoma';
+favoriteThings.brand = 'generic';
 
 
 /*
