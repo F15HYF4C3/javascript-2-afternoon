@@ -19,7 +19,7 @@ var me = {
 name: 'Tyra',
 age: 23
 };
- alert(me.name);
+alert(me.name);
 
 
 ////////// PROBLEM 2 //////////
@@ -54,7 +54,8 @@ favoriteThings.brand = 'generic';
 */
 
 //Code here
-
+favoriteThings.food = 'Chicken Nuggets';
+favoriteThings.book = 'Harry Potter';
 
 
 ////////// PROBLEM 3 //////////
@@ -68,16 +69,19 @@ favoriteThings.brand = 'generic';
 */
 
 //Code here
+var backPack = {
 
-
+};
+var item = 'firstPocket';
+backPack[item] = 'chapstick';
+backPack.color = 'red';
 
 /*
   After you do the above, alert your entire backPack object.
 */
 
 //Code here
-
-
+alert(backPack);
 
 /*
 You probably noticed that it just alerted [object Object].
@@ -86,7 +90,7 @@ Instead, console.log your whole backPack object and then check out the console.
 */
 
 //Code here
-
+console.log(backPack);
 
 
 ////////// PROBLEM 4 //////////
@@ -109,7 +113,8 @@ var user2 = {
 */
 
 //Code Here
-
+user2.name = 'Tyler S. McGinnis';
+user2.email = 'tyler.mcginnis@devmounta.in';
 
 
 
@@ -132,7 +137,9 @@ var user2 = {
 */
 
 //Code Here
+var methodCollection = {
 
+};
 
 
 /*
@@ -141,8 +148,6 @@ var user2 = {
 */
 
 //Code Here
-
-
 
 /*
   Now call your alertHello and logHello methods.
