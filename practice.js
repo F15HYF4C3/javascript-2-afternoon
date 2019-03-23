@@ -165,6 +165,20 @@ var methodCollection = {
 */
 
 //Code Here
+function makePerson(name, birthday, ssn){
+  return {
+    name: name,
+    birthday: birthday,
+    ssn: ssn
+  }
+}
+myPerson = makePerson('Tyra', 11031995, 'xxx-xx-xxxx');
+console.log(myPerson);
+console.log(myPerson.name);
+console.log(myPerson.birthday);
+console.log(myPerson.ssn);
+
+
 
 
 
@@ -176,5 +190,11 @@ var methodCollection = {
 */
 
 //Code Here
-
+function makeCard(cardNumber, expirationDate, securityCode){
+return {
+  cardNumber: cardNumber,
+  expirationDate: expirationDate,
+  securityCode: securityCode
+}
+}
 
