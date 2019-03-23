@@ -148,12 +148,18 @@ var methodCollection = {
 */
 
 //Code Here
-
-/*
+methodCollection.alertHello = function alertHello(){
+  alert('hello');
+}
+methodCollection.logHello = function logHello(){
+  console.log('hello');
+}
+  /*
   Now call your alertHello and logHello methods.
 */
 
 //Code Here
+console.log(methodCollection);
 
 
 
