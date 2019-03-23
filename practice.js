@@ -148,16 +148,7 @@ var methodCollection = {
 */
 
 //Code Here
-methodCollection.alertHello = func1();
-function func1(){
-  return(alert('hello'));
-}
-methodCollection.logHello = func2();
-function func2(){
-  console.log('hello');
-}
 
-console.log(methodCollection)
 /*
   Now call your alertHello and logHello methods.
 */
